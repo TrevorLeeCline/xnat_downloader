@@ -1,11 +1,13 @@
 # Contributing to xnat_downloader
 
+This markdown file is designed to give detailed instructions for would-be contributers to this repository. We thank you in advance for improving this repository and hope that this walkthrough can sufficiently guide you to making your improvements a reality. 
+
 ## Step 1: Fork the Repository
 
 1. Click the `Fork` botton located in the upper-right corner. 
 ![1_Fork](.imgs/1_Fork.png)
 
-1. A screen should appear asking where to fork the repository. Select your own github profile. 
+1. A screen should appear asking where to fork the repository. Select your own github profile. Mine is TrevorLeeCline, but yours should be different. Make sure that you don't use my username anywhere you should be using your own. 
 
 1. You should now see the repository under your own account. You can tell that your repository is a fork by looking in the upper left corner of your screen. There should be the tiny phrase: "forked from forked from NeuroimagingUIowa/xnat_downloader". 
 ![2_Fork](.imgs/2_Fork.png)
@@ -49,8 +51,10 @@
 ![12_term](.imgs/12_term.png)
 
 1. Typing `git status` again will reveal files that are added to the staging area and ready to commit. 
+![13_term](.imgs/13_term.png)
 
 1. Use `git commit -m "..."` to commit your changes. Replace "..." with your actual commit message between quotation marks. It is encouraged to write your commit message using [imperative language](https://chris.beams.io/posts/git-commit/#imperative) ("spoken or written as if giving a command or instruction”)
+![14_term](.imgs/14_term.png)
 
 1. Finally, you can push the changes to your forked repository on the new branch you have created with the command `git push origin your_branch_name_here`. 
-
+![15_term](.imgs/15_term.png)
